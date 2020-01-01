@@ -1,0 +1,6 @@
+# Created by .ignore support plugin (hsz.mobi)
+
+.idea/
+Будет удалено .gitignore
+Будет удалено .idea/vcs.xml
+!/test.html
