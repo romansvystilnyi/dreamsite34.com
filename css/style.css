@@ -3,10 +3,62 @@
 }
 
 .site-header {
-    border-bottom: 2px solid #26a69a;
-    padding: 25px 0;
+    border-bottom: 2px solid black;
 }
 
+.logo img {
+    width: 164px;
+    height: auto;
+    float: left;
+}
+
+p.header-text {
+    font-size: 50px;
+    font-family: "Courier New", sans-serif;
+    text-align: center;
+    margin: 0 10px;
+    padding-top: 50px;
+    color: white;
+}
+
+.header-right-block {
+    margin-top: 5px;
+    min-width: 200px;
+    float: right;
+}
+
+.button-width {
+    min-width: 100px;
+}
+
+p.button-hover {
+    margin: 0;
+    padding: 0;
+}
+.button-hover:hover {
+    color: red;
+}
+.sing-up, .log-in {
+    margin: 0;
+    padding: 0 5px;
+}
+.sing-up-right, .log-in-right {
+    float: right;
+    margin-left: 3px;
+}
+
+.header-contacts {
+    vertical-align: middle;
+}
+.skype-logo {
+    width: 24px;
+    height: 24px;
+}
+
+.contacts-logo-left {
+    float: left;
+}
+/*----------------------------------------------*/
 .site-title {
     font-size: 24px;
     margin: 0;
@@ -81,4 +133,27 @@
 
 .form-slider-wrapper {
     overflow: hidden;
+}
+/*----------------------------------*/
+.body-site {
+    padding: 10px;
+    background: #919191;
+}
+
+
+.block-my-art {
+    margin: 10px 0;
+}
+.my-art {
+    max-width: 400px;
+}
+
+
+/*------------------------*/
+p.footer-info {
+    margin: 0;
+    padding: 0;
+}
+.footer-info:hover {
+    color: red;
 }
